@@ -21,6 +21,11 @@ import PostEditor from './components/admin/Posts/PostEditor';
 import MediaLibrary from './components/admin/Media/MediaLibrary';
 import EditorialCalendar from './components/admin/Editorial/EditorialCalendar';
 import AdminAnalytics from './components/admin/Analytics/AdminAnalytics';
+import CategoryManager from './components/admin/Categories/CategoryManager';
+import TagManager from './components/admin/Tags/TagManager';
+import CommentManager from './components/admin/Comments/CommentManager';
+import UserManager from './components/admin/Users/UserManager';
+import SystemSettings from './components/admin/Settings/SystemSettings';
 
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -74,14 +79,14 @@ function App() {
             <Route path="posts/:id/edit" element={<PostEditor />} />
             <Route path="media" element={<MediaLibrary />} />
             <Route path="media/upload" element={<MediaLibrary />} />
-            <Route path="videos" element={<div className="p-6"><h1 className="text-2xl font-bold">Video Management</h1><p className="text-gray-600">Video management interface coming soon...</p></div>} />
-            <Route path="categories" element={<div className="p-6"><h1 className="text-2xl font-bold">Categories</h1><p className="text-gray-600">Category management interface coming soon...</p></div>} />
-            <Route path="tags" element={<div className="p-6"><h1 className="text-2xl font-bold">Tags</h1><p className="text-gray-600">Tag management interface coming soon...</p></div>} />
-            <Route path="comments" element={<div className="p-6"><h1 className="text-2xl font-bold">Comments</h1><p className="text-gray-600">Comment management interface coming soon...</p></div>} />
-            <Route path="users" element={<div className="p-6"><h1 className="text-2xl font-bold">Users</h1><p className="text-gray-600">User management interface coming soon...</p></div>} />
+            <Route path="videos" element={<MediaLibrary />} />
+            <Route path="categories" element={<CategoryManager />} />
+            <Route path="tags" element={<TagManager />} />
+            <Route path="comments" element={<CommentManager />} />
+            <Route path="users" element={<UserManager />} />
             <Route path="analytics" element={<AdminAnalytics />} />
             <Route path="calendar" element={<EditorialCalendar />} />
-            <Route path="settings" element={<div className="p-6"><h1 className="text-2xl font-bold">Settings</h1><p className="text-gray-600">System settings coming soon...</p></div>} />
+            <Route path="settings" element={<SystemSettings />} />
           </Route>
           
           {/* Catch all route */}
