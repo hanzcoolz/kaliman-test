@@ -43,7 +43,7 @@ const UserManager: React.FC = () => {
     {
       id: '1',
       name: 'Administrator',
-      email: 'admin@konstruksiberkah.com',
+      email: 'admin@kalimankarya.id',
       role: 'admin',
       status: 'active',
       avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
@@ -55,7 +55,7 @@ const UserManager: React.FC = () => {
     {
       id: '2',
       name: 'Editor Utama',
-      email: 'editor@konstruksiberkah.com',
+      email: 'editor@kalimankarya.id',
       role: 'editor',
       status: 'active',
       avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
@@ -67,7 +67,7 @@ const UserManager: React.FC = () => {
     {
       id: '3',
       name: 'Penulis Konten',
-      email: 'penulis@konstruksiberkah.com',
+      email: 'penulis@kalimankarya.id',
       role: 'author',
       status: 'active',
       avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',

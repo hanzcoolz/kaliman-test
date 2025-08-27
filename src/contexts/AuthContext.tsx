@@ -35,10 +35,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setLoading(true);
     try {
       // Simulate API call - replace with actual authentication
-      if (email === 'admin@konstruksiberkah.com' && password === 'admin123') {
+      if (email === 'admin@kalimankarya.id' && password === 'admin123') {
         const mockUser: User = {
           id: '1',
-          email: 'admin@konstruksiberkah.com',
+          email: 'admin@kalimankarya.id',
           name: 'Administrator',
           role: 'admin',
           avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
