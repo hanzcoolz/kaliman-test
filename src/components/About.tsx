@@ -43,10 +43,10 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Tentang <span className="text-orange-500">Berkah Konstruksi</span>
+                Tentang <span className="text-orange-500">PT. Kaliman Karya</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Berdiri sejak 2008, Berkah Konstruksi telah menjadi partner terpercaya dalam mewujudkan 
+                Berdiri sejak 2008, PT. Kaliman Karya telah menjadi partner terpercaya dalam mewujudkan 
                 impian hunian dan bangunan komersial berkualitas tinggi di Jakarta dan sekitarnya.
               </p>
             </div>
@@ -92,7 +92,7 @@ const About: React.FC = () => {
             <div className="relative">
               <img
                 src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Tim Berkah Konstruksi"
+                alt="Tim PT. Kaliman Karya"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg">

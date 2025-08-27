@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <div className="text-2xl font-bold text-blue-900">
-                Berkah<span className="text-orange-500">Konstruksi</span>
+                PT. Kaliman<span className="text-orange-500">Karya</span>
               </div>
             </div>
             

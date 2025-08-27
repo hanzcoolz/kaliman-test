@@ -1,4 +1,4 @@
-# Berkah Konstruksi - Website & Admin Panel
+# PT. Kaliman Karya - Website & Admin Panel
 
 Website perusahaan konstruksi profesional dengan sistem manajemen konten (CMS) yang lengkap.
 
@@ -62,7 +62,7 @@ Website perusahaan konstruksi profesional dengan sistem manajemen konten (CMS) y
 
 ### Persiapan Server
 1. **Install Node.js** di aaPanel
-2. **Setup domain** kaliman.hanzserver.online
+2. **Setup domain** kalimankarya.id
 3. **Konfigurasi SSL** certificate
 
 ### Build & Deploy
@@ -81,17 +81,17 @@ Website perusahaan konstruksi profesional dengan sistem manajemen konten (CMS) y
 
 ### Environment Variables Production
 ```env
-VITE_APP_URL=https://kaliman.hanzserver.online
-VITE_API_URL=https://kaliman.hanzserver.online/api
-VITE_SITE_NAME=Berkah Konstruksi
+VITE_APP_URL=https://kalimankarya.id
+VITE_API_URL=https://kalimankarya.id/api
+VITE_SITE_NAME=PT. Kaliman Karya
 # ... konfigurasi lainnya
 ```
 
 ## 🔐 Admin Panel
 
 ### Akses Admin
-- **URL**: `https://kaliman.hanzserver.online/admin`
-- **Email**: `admin@konstruksiberkah.com`
+- **URL**: `https://kalimankarya.id/admin`
+- **Email**: `admin@kalimankarya.id`
 - **Password**: `admin123`
 
 ### Fitur Admin
@@ -163,11 +163,11 @@ src/
 
 ## 📄 License
 
-Copyright © 2024 Berkah Konstruksi. All rights reserved.
+Copyright © 2024 PT. Kaliman Karya. All rights reserved.
 
 ## 📞 Support
 
 Untuk bantuan teknis atau pertanyaan:
-- **Email**: admin@konstruksiberkah.com
+- **Email**: admin@kalimankarya.id
 - **Phone**: +62 21-5555-0123
 - **WhatsApp**: +62 812-3456-7890

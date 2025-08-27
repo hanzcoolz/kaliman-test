@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://kaliman.hanzserver.online/sitemap.xml
+Sitemap: https://kalimankarya.id/sitemap.xml
 
 # Disallow admin area
 Disallow: /admin/
