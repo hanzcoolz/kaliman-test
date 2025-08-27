@@ -1,22 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  MessageSquare, 
-  Search, 
-  Filter, 
-  Check, 
-  X, 
-  Trash2, 
-  Reply,
-  Flag,
-  User,
-  Calendar,
-  Mail,
-  Globe,
-  AlertTriangle,
-  CheckCircle,
-  Clock,
-  Spam
-} from 'lucide-react';
+import { MessageSquare, Search, Filter, Check, X, Trash2, Reply, Flag, User, Calendar, Mail, Globe, AlertTriangle, CheckCircle, Clock, Space as Spam } from 'lucide-react';
 
 interface Comment {
   id: string;
