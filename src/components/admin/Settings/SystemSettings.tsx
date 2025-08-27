@@ -48,7 +48,7 @@ const SystemSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Site Title</label>
             <input
               type="text"
-              defaultValue="Berkah Konstruksi"
+              defaultValue="PT. Kaliman Karya"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
@@ -72,7 +72,7 @@ const SystemSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Site URL</label>
             <input
               type="url"
-              defaultValue="https://kaliman.hanzserver.online"
+              defaultValue="https://kalimankarya.id"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
@@ -80,7 +80,7 @@ const SystemSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Admin Email</label>
             <input
               type="email"
-              defaultValue="admin@konstruksiberkah.com"
+              defaultValue="admin@kalimankarya.id"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
@@ -166,7 +166,7 @@ const SystemSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Username</label>
             <input
               type="text"
-              defaultValue="admin@konstruksiberkah.com"
+              defaultValue="admin@kalimankarya.id"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
@@ -194,7 +194,7 @@ const SystemSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Welcome Email Subject</label>
             <input
               type="text"
-              defaultValue="Selamat Datang di Berkah Konstruksi"
+              defaultValue="Selamat Datang di PT. Kaliman Karya"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>

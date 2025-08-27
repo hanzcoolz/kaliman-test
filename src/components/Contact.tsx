@@ -63,9 +63,9 @@ const Contact: React.FC = () => {
       icon: Mail,
       title: 'Email',
       details: [
-        'info@konstruksiberkah.com',
-        'quote@konstruksiberkah.com',
-        'support@konstruksiberkah.com'
+        'info@kalimankarya.id',
+        'quote@kalimankarya.id',
+        'support@kalimankarya.id'
       ]
     },
     {

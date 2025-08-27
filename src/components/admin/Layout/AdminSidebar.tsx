@@ -53,7 +53,7 @@ const AdminSidebar: React.FC<AdminSidebarProps> = ({ isOpen, onClose }) => {
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200">
           <div className="flex items-center">
             <div className="text-xl font-bold text-gray-900">
-              Admin<span className="text-blue-600">Panel</span>
+              Kaliman<span className="text-blue-600">Karya</span>
             </div>
           </div>
           <button
@@ -100,7 +100,7 @@ const AdminSidebar: React.FC<AdminSidebarProps> = ({ isOpen, onClose }) => {
             />
             <div className="ml-3">
               <p className="text-sm font-medium text-gray-700">Administrator</p>
-              <p className="text-xs text-gray-500">admin@konstruksiberkah.com</p>
+              <p className="text-xs text-gray-500">admin@kalimankarya.id</p>
             </div>
           </div>
         </div>

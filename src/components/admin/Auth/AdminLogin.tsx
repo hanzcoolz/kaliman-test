@@ -37,7 +37,7 @@ const AdminLogin: React.FC = () => {
             <Lock className="w-8 h-8 text-blue-600" />
           </div>
           <h1 className="text-3xl font-bold text-white mb-2">Admin Panel</h1>
-          <p className="text-blue-100">Berkah Konstruksi CMS</p>
+          <p className="text-blue-100">PT. Kaliman Karya CMS</p>
         </div>
 
         {/* Login Form */}
@@ -68,7 +68,7 @@ const AdminLogin: React.FC = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                   className="pl-10 pr-4 py-3 w-full border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                  placeholder="admin@konstruksiberkah.com"
+                  placeholder="admin@kalimankarya.id"
                 />
               </div>
             </div>
@@ -131,7 +131,7 @@ const AdminLogin: React.FC = () => {
           <div className="mt-6 p-4 bg-gray-50 rounded-lg">
             <h4 className="text-sm font-medium text-gray-700 mb-2">Demo Credentials:</h4>
             <div className="text-sm text-gray-600 space-y-1">
-              <p><strong>Email:</strong> admin@konstruksiberkah.com</p>
+              <p><strong>Email:</strong> admin@kalimankarya.id</p>
               <p><strong>Password:</strong> admin123</p>
             </div>
           </div>
@@ -140,7 +140,7 @@ const AdminLogin: React.FC = () => {
         {/* Footer */}
         <div className="text-center mt-8">
           <p className="text-blue-100 text-sm">
-            © 2024 Berkah Konstruksi. All rights reserved.
+            © 2024 PT. Kaliman Karya. All rights reserved.
           </p>
         </div>
       </div>
