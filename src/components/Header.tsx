@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             </div>
           </div>
           <div className="text-sm">
-            <span>Melayani Seluruh Jakarta & Sekitarnya</span>
+            <span>info@kalimankarya.id</span>
           </div>
         </div>
       </div>
@@ -63,6 +63,12 @@ const Header: React.FC = () => {
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
+            <a
+              href="/admin/login"
+              className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-semibold flex items-center"
+            >
+              Login Admin
+            </a>
           </div>
 
           {/* Mobile Navigation */}
@@ -78,6 +84,12 @@ const Header: React.FC = () => {
                 <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors font-semibold text-left">
                   Minta Penawaran Gratis
                 </button>
+                <a
+                  href="/admin/login"
+                  className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-left block"
+                >
+                  Login Admin
+                </a>
               </nav>
             </div>
           )}

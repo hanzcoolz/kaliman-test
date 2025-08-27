@@ -81,8 +81,8 @@ Website perusahaan konstruksi profesional dengan sistem manajemen konten (CMS) y
 
 ### Environment Variables Production
 ```env
-VITE_APP_URL=https://kalimankarya.id
-VITE_API_URL=https://kalimankarya.id/api
+VITE_APP_URL=https://kaliman.hanzserver.online
+VITE_API_URL=https://kaliman.hanzserver.online/api
 VITE_SITE_NAME=PT. Kaliman Karya
 # ... konfigurasi lainnya
 ```
@@ -90,7 +90,7 @@ VITE_SITE_NAME=PT. Kaliman Karya
 ## 🔐 Admin Panel
 
 ### Akses Admin
-- **URL**: `https://kalimankarya.id/admin`
+- **URL**: `https://kaliman.hanzserver.online/admin`
 - **Email**: `admin@kalimankarya.id`
 - **Password**: `admin123`
 
